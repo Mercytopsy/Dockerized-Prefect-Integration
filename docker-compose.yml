@@ -1,0 +1,10 @@
+version: '3'
+services:
+  prefect-server:
+    image: prefecthq/prefect:latest
+    command: server
+    ports:
+      - "4200:4200"
+  prefect-agent:
+    image: prefecthq/prefect:latest
+    command: agent local start
