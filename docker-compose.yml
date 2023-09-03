@@ -58,7 +58,7 @@ services:
     environment:
       - PREFECT_API_URL=http://server:4200/api
 #       Use PREFECT_API_KEY if connecting the agent to Prefect Cloud
-#     - PREFECT_API_KEY=YOUR_API_KEY
+      - PREFECT_API_KEY="pcu_M6IAtp0vA5dfCGb8uSnrG8dB1cHJZY1nKeSJ"
     profiles: ["agent"]
 
   ### Prefect CLI
